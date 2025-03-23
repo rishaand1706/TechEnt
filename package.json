@@ -2,7 +2,11 @@
   "name": "techent",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://yourusername.github.io/your-repo-name",
+
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
